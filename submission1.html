@@ -4,6 +4,8 @@
 	<title>image gallery</title>
 	<style>body {
 	margin: 0px;
+	background: url("https://cdn.pixabay.com/photo/2017/01/26/21/32/background-2011768_960_720.jpg") no-repeat center center fixed;
+	background-size:cover;
 }
 
 .images {
@@ -24,7 +26,7 @@ img:hover {
 }
 
 
-h1,h2 {
+h1,h2 {color:#6d5a28;
 	font-family: fantasy;
 	font-size: 3em;
 	border-bottom: 2px solid pink;
@@ -33,12 +35,24 @@ h1,h2 {
 	text-align: center;
 	box-shadow: 4px 4px 5px #888888;
 	margin-top: 10px;
-}</style>
+}
+h2{
+margin-bottom:25px;
+margin:auto;
+position: -webkit-sticky;
+position: sticky;
+top:0;}
+.line{
+border-bottom:2px solid red;
+margin:30px 15px 15px 15px;
+padding-top:0px;
+padding-bottom:0px;}
+</style>
 </head>
 <body >
-<div style="display:inline-block;"><h1>WILD LIFE</h1></div>
-	<div style="display:inline-block;float:right;"><h2>MY IMAGE GALLERY</h2></div>
-	<div style="border-bottom:2px solid red;"></div>
+<div><h1>WILD LIFE</h1></div>
+	<div><h2>MY IMAGE GALLERY</h2></div>
+	<div class="line"></div>
 	<div class="images">
 		<img src="image1.jpeg">
 		<img src="image2.jpeg">
@@ -46,6 +60,9 @@ h1,h2 {
 		<img src="image4.jpeg">
 		<img src="image5.jpeg">
 		<img src="image6.jpeg">
+		<img src="image7.jpg">
+		<img src="image8.jpg">
+		<img src="image9.jpg">
 	</div>
 </body>
 </html>
