@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>image gallery</title>
+	<style>body {
+	margin: 0px;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+ 
+img {
+	width: 600px;
+	height: 400px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}</style>
+</head>
+<body >
+<h1>wild life</h1>
+	<div class="images">
+		<img src="image1.jpeg">
+		<img src="image2.jpeg">
+		<img src="image3.jpeg">
+		<img src="image4.jpeg">
+		<img src="image5.jpeg">
+		<img src="image6.jpeg">
+	</div>
+</body>
+</html>
